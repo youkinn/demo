@@ -66,6 +66,7 @@ export default {
   },
   methods: {
     getNewsList() {
+      debugger;
       this.oNews.getList(this);
     }
   }

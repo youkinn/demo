@@ -6,7 +6,7 @@
           <div class="let">我也来说几句</div>
           <div class="info">5/20</div>
         </div>
-        <inline-button-compontent :type="1" text="发表" @touch="publish"></inline-button-compontent>
+        <inline-button-compontent s-text="发表" @touch="publish"></inline-button-compontent>
       </div>
       <div class="content">
         <textarea v-focus v-model="content" placeholder="发表自己的见解" autofocus></textarea>

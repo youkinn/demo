@@ -14,47 +14,48 @@
  */
 {
   "code": 10000,
-  "result|4": [{
-    "_id|20": "@character(lower)",
-    "title|2-6": "@ctitle",
-    "content": "@cparagraph",
-    "imgUrl": ["@image(580x188)"],
-    "category": 1,
+  "result|50": [{
+    "id|+1": 1,
     "type": 1,
-    "source|2-6": "@cword",
-    "publishTime": 1485691889000,
-    "commentList": []
-  }, {
-    "_id|20": "@character(lower)",
-    "title|2-6": "@ctitle",
-    "content": "@cparagraph",
-    "imgUrl": ["@image(216x140)"],
-    "category": 1,
+    "title|3": "@ctitle",
+    "picPath": ["@image(580x188)"],
+    "desc": "@cparagraph",
+    "intro|15-20": "@cword",
+    "source": "@ctitle",
+    "link": "/news/@id",
+    "publishTime|1": ["刚刚", "2分钟前", "4分钟前"]
+  },
+  {
+    "id|+1": 1,
     "type": 2,
-    "source|2-6": "@cword",
-    "publishTime": 1485691889000,
-    "commentList": []
+    "title|3": "@ctitle",
+    "picPath": ["@image(216x140)"],
+    "desc": "@cparagraph",
+    "intro|15-20": "@cword",
+    "source": "@ctitle",
+    "link": "/news/@id",
+    "publishTime|1": ["刚刚", "2分钟前", "4分钟前"]
   },
   {
-    "_id|20": "@character(lower)",
-    "title|2-6": "@ctitle",
-    "content": "@cparagraph",
-    "imgUrl": [],
-    "category": 1,
+    "id|+1": 1,
     "type": 3,
-    "source|2-6": "@cword",
-    "publishTime": 1485691889000,
-    "commentList": []
+    "title|3": "@ctitle",
+    "picPath": [],
+    "desc": "@cparagraph",
+    "intro|30-50": "@cword",
+    "source": "@ctitle",
+    "link": "/news/@id",
+    "publishTime|1": ["刚刚", "2分钟前", "4分钟前"]
   },
   {
-    "_id|20": "@character(lower)",
-    "title|2-6": "@ctitle",
-    "content": "@cparagraph",
-    "imgUrl": ["@image(180x150)", "@image(180x150)", "@image(180x150)"],
-    "category": 1,
+    "id|+1": 1,
     "type": 4,
-    "source|2-6": "@cword",
-    "publishTime": 1485691889000,
-    "commentList": []
+    "title|3": "@ctitle",
+    "picPath": ["@image(180x150)", "@image(180x150)", "@image(180x150)"],
+    "desc": "@cparagraph",
+    "intro|15-20": "@cword",
+    "source": "@ctitle",
+    "link": "/news/@id",
+    "publishTime|1": ["刚刚", "2分钟前", "4分钟前"]
   }]
 }

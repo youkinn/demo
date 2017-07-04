@@ -99,7 +99,7 @@ export default {
     getNewsList() {
       this.news = new LoadData(Vue.ClientUrl.getNewsList, {
         limit: 200,
-        nologin: 1
+        nologin: 200
       });
       return this.news.getList();
     }

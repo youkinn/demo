@@ -22,6 +22,7 @@ class LoadData {
     this.loading = true;
     return Vue.ClientHttp(that)[this.method](parmas, this.url)
       .then((res) => {
+        debugger;
         this.init = true;
         this.loading = false;
         if (res.code === 10000) {

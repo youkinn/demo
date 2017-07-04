@@ -1,17 +1,13 @@
 export default {
+  // mock数据的接口路径
   test: {
-    getSwiperList: '/mock/getSwiperList',
-    getUserInfo: '/mock/getDemoData',
-    getNewsList: '/mock/getNewsList',
-    getNewsDetail: '/mock/getNewsDetail',
-    getGameList: '/mock/getGameList',
-  },
-  temp: {
     getSwiperList: '/api/getSwiperList',
+    getUserInfo: '/api/getDemoData',
     getNewsList: '/api/getNewsList',
     getNewsDetail: '/api/getNewsDetail',
     getGameList: '/api/getGameList',
   },
+  // 正式库接口
   production: {
     doLogin: '/User/Login/login',                               // 登陆
     getSwiperList: '/Game/Index/get_banner_ad',                 // 轮播列表

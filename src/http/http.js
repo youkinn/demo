@@ -3,7 +3,7 @@
 import httpUrlConfig from '../config/url.config';
 (function() {
   // 可以在这里配置是否使用本地的测试环境
-  let apiType = 1;
+  let apiType = 0;
 
   // 我们封装的组件
   function install(Vue) {

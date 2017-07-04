@@ -10,7 +10,7 @@ const express = require('express');
 const mock = require('express-mockjs');
 const placehold = require('express-placehold');
 
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 8002;
 const NODE_ENV = process.env.NODE_ENV;
 
 const log = debug('mock:server');
