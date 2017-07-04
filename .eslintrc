@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "plugins": ["html"],
+  "extends": ["eslint:recommended"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "amd": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "globals": {
+    "Vue": false,
+    "jiathis_mh5": false,
+    "bus": false,
+    "mallUtils": false
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+    "no-console": 0,
+    "no-debugger": 0
+  }
+}

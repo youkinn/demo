@@ -1,0 +1,60 @@
+/**
+ * Datamock Demo
+ *
+ * @url /getNewsList
+ *
+ * 参数说明：
+ *
+ * result: 用户信息
+ *  
+ * userId: 用户ID
+ * username: 用户名称
+ * avatar: 头像
+ * bindphone: 绑定手机
+ */
+{
+  "code": 10000,
+  "result|4": [{
+    "_id|20": "@character(lower)",
+    "title|2-6": "@ctitle",
+    "content": "@cparagraph",
+    "imgUrl": ["@image(580x188)"],
+    "category": 1,
+    "type": 1,
+    "source|2-6": "@cword",
+    "publishTime": 1485691889000,
+    "commentList": []
+  }, {
+    "_id|20": "@character(lower)",
+    "title|2-6": "@ctitle",
+    "content": "@cparagraph",
+    "imgUrl": ["@image(216x140)"],
+    "category": 1,
+    "type": 2,
+    "source|2-6": "@cword",
+    "publishTime": 1485691889000,
+    "commentList": []
+  },
+  {
+    "_id|20": "@character(lower)",
+    "title|2-6": "@ctitle",
+    "content": "@cparagraph",
+    "imgUrl": [],
+    "category": 1,
+    "type": 3,
+    "source|2-6": "@cword",
+    "publishTime": 1485691889000,
+    "commentList": []
+  },
+  {
+    "_id|20": "@character(lower)",
+    "title|2-6": "@ctitle",
+    "content": "@cparagraph",
+    "imgUrl": ["@image(180x150)", "@image(180x150)", "@image(180x150)"],
+    "category": 1,
+    "type": 4,
+    "source|2-6": "@cword",
+    "publishTime": 1485691889000,
+    "commentList": []
+  }]
+}

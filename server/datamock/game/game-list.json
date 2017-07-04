@@ -1,0 +1,26 @@
+/**
+ * Datamock Demo
+ *
+ * @url /getGameList
+ *
+ * 参数说明：
+ *
+ * result: 用户信息
+ *  
+ * userId: 用户ID
+ * username: 用户名称
+ * avatar: 头像
+ * bindphone: 绑定手机
+ */
+{
+  "code": 10000,
+  "result|8": [{
+    "_id": "58a6c9d5a9f17c3848e57b3d",
+    "imgUrl": "@image(108x108)",
+    "name|4": "@cword",
+    "type|2-4": "@cword",
+    "intro|20": "@cword",
+    "gameID|20": "@character(lower)",
+    "category": "1"
+  }]
+}
